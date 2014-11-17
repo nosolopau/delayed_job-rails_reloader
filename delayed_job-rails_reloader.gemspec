@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.files             = %w( README.md LICENSE )
   s.files            += Dir.glob("lib/**/*")
 
-  s.add_dependency    "delayed_job", "~>3.0.0"
-  s.add_dependency    "rails",       "~>3.0"
+  s.add_dependency    "delayed_job", "~>4.0.0"
+  s.add_dependency    "rails",       "~>4.0"
   
   s.description       = <<desc
   Reload classes on each job run. This plugin assumes that you are running DelayedJob in a Rails environment.
